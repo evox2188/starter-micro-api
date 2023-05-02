@@ -1,13 +1,19 @@
 {
-  "name": "starter-micro-api",
+  "name": "herokuserver2",
   "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "request": "^2.88.2",
+    "request-ip": "^2.1.3",
+    "request-promise": "^4.2.6",
+    "sniffr": "^1.2.0"
   }
 }
